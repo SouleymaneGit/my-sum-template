@@ -64,9 +64,9 @@ int main()
 	//std::cout << my_sum(v4.begin(), v4.end(), 0) << std::endl;
 	//std::cout << my_sum(v1.begin(), v1.end(), wrong_init) << std::endl;
 
-	std::cout << my_sum(v1.begin(), v1.end(), sum1) << std::endl;
-	std::cout << my_sum(v2.begin(), v2.end(), sum2) << std::endl;
-	std::cout << my_sum(v3.begin(), v3.end(), sum3) << std::endl;
+	std::cout <<"Sum of v1: "<< my_sum(v1.begin(), v1.end(), sum1) << std::endl;
+	std::cout <<"Sum of v2: "<< my_sum(v2.begin(), v2.end(), sum2) << std::endl;
+	std::cout <<"Sum of v3: "<< my_sum(v3.begin(), v3.end(), sum3) << std::endl;
 	
 	return 0;
 }
